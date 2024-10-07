@@ -1,0 +1,40 @@
+$Primary-color-1 : lightblue;
+$Primary-color-2 : lightgreen;
+$Primary-color-3 : coral;
+$Pcolor-3-hover : rgb(214, 71, 19);
+$text-color : rgb(36, 36, 36);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        ;
+        img{
+            border-radius: 50%;
+            width: 150px;
+        }
+        .nav li{
+        list-style: none; 
+        display: inline;
+        a{
+            text-decoration: none;
+            font-weight: 500;
+            color: $Primary-color-3;
+            padding: 20px;
+        }
+        a:hover{
+            color: $Pcolor-3-hover;
+        }
+    }
+    }
+}

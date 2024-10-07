@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+}
+body header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body header img {
+  border-radius: 50%;
+  width: 150px;
+}
+body header .nav li {
+  list-style: none;
+  display: inline;
+}
+body header .nav li a {
+  text-decoration: none;
+  font-weight: 500;
+  color: coral;
+  padding: 20px;
+}
+body header .nav li a:hover {
+  color: rgb(214, 71, 19);
+}/*# sourceMappingURL=styles.css.map */
